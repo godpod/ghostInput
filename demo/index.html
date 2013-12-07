@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>jQuery GhostWriter</title>
+    <link type="text/css" href="style.css" rel="stylesheet" />
+</head>
+<body>
+    <h1>jQuery GhostWriter - Form Plugin</h1>
+    <form style="width: 400px;margin: 0 100px;">
+        <h3>Ghost Input auto intializing with rel attribute</h3>
+        <div class="wrap">
+            <input type="text" id="ghost_writer_with_rel" rel="ghostInput" placeholder="Type anything here to append ghost text" />
+        </div>
+        <h3>Ghost Input with options</h3>
+        <div class="wrap">
+            <input type="text" id="ghost_writer_with_options" placeholder=".domain.com" />
+        </div>
+    </form>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script type="text/javascript" src="../src/jquery.ghostinput.js"></script>
+    <script type="text/javascript">
+        $(function() {
+            $("#ghost_writer_with_options").ghostInput({
+                ghostText:".domain.com",
+                ghostPlaceholder:".domain.com - Enter Sub Domain",
+                ghostTextClass: "ghost-text"
+            });
+        });
+    </script>
+</body>
+</html>
