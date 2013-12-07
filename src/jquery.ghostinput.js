@@ -12,7 +12,7 @@
         var o = $.extend({
             ghostText: ".ghosttext",
             ghostPlaceholder: "Add subdomain",
-            ghostTextClass: "ghost-text",
+            ghostTextClass: "ghost-text"
         }, options);
         return this.each(function(i, element){
             var $element = $(element);
