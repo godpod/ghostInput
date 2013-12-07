@@ -1,0 +1,7 @@
+jQuery GhostInput Form Plugin
+
+
+A form input plugin used for adding information along with an appending (ghost) text.
+
+For example use it for adding subdomain information along with domain text
+Eg. edit_subdomain.domain.com
