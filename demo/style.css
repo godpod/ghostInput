@@ -6,11 +6,13 @@ input {
     /* important */
     font-family: sans-serif;
     font-size: 16px;
+    line-height: 18px; /* Change this if text wont align */
     vertical-align: baseline;
     /* end important */
-    width: 100%;
-    padding: 15px 10px;
+    margin: 0;
     border: 0 solid #e0e0e0;
+    padding: 15px 10px;
+    width: 100%;
     background: #eee;
     font-weight: 300;
 }
@@ -19,16 +21,16 @@ input {
     /* important */
     font-family: sans-serif;
     font-size: 16px;
+    line-height: 18px; /* Change this if text wont align */
     position: absolute;
     left: 0;
     top: 0;
     /* end important */
-    background: none;
-    padding: 15px 10px;
+    margin: 0;
     border: 0;
-    width: 369px;
+    padding: 15px 10px;
+    width: 100%;
+    background: none;
     font-weight: 300;
-    height: 35px;
     color: #999999;
-    margin-top: 2px;
 }
