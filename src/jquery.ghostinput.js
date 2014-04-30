@@ -6,7 +6,7 @@
  *
  *  Author: GODPOD (Ravi Rajendra)
  *
- *  URL: https://github.com/godpod/javascript/ghostWriter
+ *  URL: https://github.com/godpod/ghostInput
  *
 **/
 (function($) {
