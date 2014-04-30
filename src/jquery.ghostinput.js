@@ -30,6 +30,9 @@
             o.ghostHiddenLabel = $("<label />").css({"visibility":"hidden"}).addClass(o.ghostHiddenClass);
             o.ghostBox = $("<label />").attr("for", r).addClass(o.ghostTextClass).append(o.ghostHiddenLabel).append(o.ghosttextspan);
             $element.parent().prepend(o.ghostBox);
+            o.ghostBox.click(function() {
+                $element.focus();
+            });
             $element.bind("keyup keydown keypress change",function() {
                 setTimeout(function() {
                     var t = "" == $.trim($element.val()) ? o.ghostPlaceholder: o.ghostText;
